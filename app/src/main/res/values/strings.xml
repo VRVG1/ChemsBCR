@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BroadcastReceiver</string>
+    <string name="noCargando">Desconectado de la corriente electrica, usando la bateria</string>
+    <string name="cargando">Conectado a la corriente electrica, cargando</string>
+    <string name="bateriaBaja">Bateria Baja</string>
+    <string name="batteryPct">El nivel de la bateria es: </string>
+    <string name="aviso">Conecte o desconecte el cargador</string>
+</resources>

@@ -16,9 +16,7 @@ import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
     private TextView tvmensaje, tvBatteryPct;
-    private ImageView imImagen;
     private IntentFilter chargingFilter;
-    private MediaPlayer mp;
     private BroadCastReciverCargando broadCastReciverCargando;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -65,8 +63,6 @@ public class MainActivity extends AppCompatActivity {
             }
         }
     }
-
-
     @Override
     protected void onResume() {
         super.onResume();
